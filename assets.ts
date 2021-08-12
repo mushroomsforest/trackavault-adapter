@@ -45,7 +45,8 @@ class MockAssets implements IAssets {
     }
 
     asset(address: string): Asset {
-        return this.assets[address.toLowerCase()];
+        let existing = this.assets[address.toLowerCase()];
+        return existing? existing : new MockAsset("dummy", "0x0000000000000000000000000000000000000000");
     }
 
     has(address: string): boolean {
