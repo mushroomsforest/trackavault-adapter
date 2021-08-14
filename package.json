@@ -16,7 +16,8 @@
     "apollo-client": "^2.6.10",
     "apollo-link-batch-http": "^1.2.14",
     "apollo-link-http": "^1.5.17",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "ethers": "^5.0.23"
   },
   "devDependencies": {
     "ts-node": "^10.1.0",
